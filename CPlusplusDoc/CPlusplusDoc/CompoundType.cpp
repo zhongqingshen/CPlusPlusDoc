@@ -65,11 +65,11 @@ void test2()
   //|修改        |      能修改       |  不能修改       | 
   //|-------------------------------------------------
 
-int main()
-{
+//int main()
+//{
 	//test();
 	//test1();
-	test2();
-	system("pause");
+	//test2();
+	/*system("pause");
 	return 0;
-}
+}*/
