@@ -26,12 +26,34 @@ void test()
    //3.空指针，一个没有指向的指针
    //4.上述情况以外的指针
    //如果需要访问一个对象需要使用解引用符(*p),p是指针
+//使用未经初始化的指针会引起程序崩溃
 void test1()
 {
 	int a = 10;
 	int *p = &a; 
 	cout << "a 的地址：" << a << endl;
 	cout << "p 的地址：" << *p << endl;
+	//获取指针的地址方式
+	cout << "获取指针的地址方式：" << &p << endl;
+}
+
+void test2()
+{
+	int ival = 100;
+	int *p = &ival;
+	cout << "*p的值 " << *p << endl;//p指向的对象值
+	cout << "p的值 " << p << endl; //p是指向ival的地址值
+	cout << "ival 的值" << &ival << endl;//ival的地址值
+	cout << "p的值 " << &p << endl;//p的地址值
+	cout << "--------------------------------------" << endl;
+	int i = 42;
+	int *pi = &i;
+	*pi = *pi * *pi;
+	cout << "i的值" << i << endl;
+	cout << "i的地址值" << &i << endl;
+	cout << "pi的对象地址值" << pi << endl;
+	cout << "pi的地址值" << &pi << endl;
+	cout << "pi的引用对象值" << *pi << endl;
 
 }
 
@@ -46,7 +68,8 @@ void test1()
 int main()
 {
 	//test();
-	test1();
+	//test1();
+	test2();
 	system("pause");
 	return 0;
 }
