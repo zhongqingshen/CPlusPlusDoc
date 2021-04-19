@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Day1">
       <UniqueIdentifier>{8cc9cf44-0767-46b0-8cb2-5f7ca580e599}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Day2">
+      <UniqueIdentifier>{9e0cc335-609d-463a-a9cd-1fa4d861791e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CompoundType.cpp">
@@ -23,6 +26,9 @@
     </ClCompile>
     <ClCompile Include="ConstDoc.cpp">
       <Filter>Source Files\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="BookManage.cpp">
+      <Filter>Source Files\Day2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
