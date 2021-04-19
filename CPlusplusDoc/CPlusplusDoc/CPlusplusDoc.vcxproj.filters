@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Day2">
       <UniqueIdentifier>{9e0cc335-609d-463a-a9cd-1fa4d861791e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Day3">
+      <UniqueIdentifier>{a6661dc7-8047-48e4-a2b9-95529e1e4319}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CompoundType.cpp">
